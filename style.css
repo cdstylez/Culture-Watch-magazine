@@ -1,0 +1,649 @@
+body{
+             background:linear-gradient(to right,darkblue 25%,rgb(77, 0, 255));
+}
+
+@media only screen and (min-width: 1000px){
+header{
+   background:linear-gradient(to right,darkblue 25%,rgb(77, 0, 255));
+    width: 100%;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    padding: 30px 30px;
+      color: bisque;
+}
+
+header img{
+      display: grid;
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner h2{
+font-style: italic;
+ line-height: 34px; 
+ color: aliceblue;
+font-family: sans-serif;
+font-size: 20px;
+text-align: center;
+font-weight: 900;
+text-shadow: 2px 2px 0px;
+    vertical-align: 
+}
+    
+.menu nav .dropdw{
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0 auto;
+    width: fit-content;
+    }    
+
+
+.menu nav .dropbtn{
+    background-color: rgb(77, 0, 255);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+ text-transform: uppercase;
+}
+
+.menu nav .dropdw-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+ padding: 0 10px;
+}
+
+ .menu nav .dropdw-content a{
+      color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+}
+
+/* Change color of dropdown links on hover */
+.dropdw-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdw:hover .dropdw-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdw:hover .dropbtn {background-color: #3e8e41;}
+
+/*header .header-randomtht{*/
+    display: none;
+
+    /*Weekly topics section*/
+
+.weekly {
+  width:  500px;
+  display:inline-block;
+  border:solid;
+background-color: aqua;
+margin-left:450px;
+}
+
+.weekly h2{
+    color: black;
+    font-size: 45px;
+}
+
+.weekly h3{
+    font-size: 35px;
+}
+.weekly h4{
+    font-size: 30px;
+}
+    
+/*Weekly topics section END*/
+
+/*Song of Month section*/
+.STM{
+    color: aqua;
+}
+.STM h2{
+    font-size: 25px;
+}
+.STM p{
+    font-size: 15px;
+}
+
+.song h2{
+font-size: 15px;
+color: white;
+}
+    
+    #text{
+        color: white;
+    }
+/*Song of Month section END*/
+
+/*Trending Videos section*/
+.vid1{
+    color: aliceblue;
+}
+
+.vid2{
+display: inline-block;
+  border:solid;
+margin-left: 22%
+}
+
+/*Trending Videos section END*/ 
+    /*Contests ssection*/
+contests{
+padding: 15px;
+border: 1px solid white;
+width: 75%;
+}
+
+
+ .nflp {
+    background-color: cadetblue;  
+  width: 300px;
+  display:inline-block;
+  border:solid;
+color: wheat;
+margin-left:250px;
+}
+
+.FBL{
+    margin-left: 350px;
+     width: 300px;
+  display:inline-block;
+  border:solid;
+background-color: red;
+color: wheat;
+}
+
+.tix{
+margin-left: 450px;
+width: 300px;
+  display:inline-block;
+  border:solid;
+background-color: green;
+color: wheat;
+}
+.contests h2{
+       font-size: 30px;
+}
+.contests p{
+       font-size: 18px;
+}
+
+
+/*Contests ssection END*/
+    
+/*Be A  Writer section*/
+writer{
+    float: right;
+      padding: 5px;
+  border: 100px hidden white;
+    width: 100%;
+}
+
+.baw{
+    color: white;
+    background-color: gray;
+  width: 300px;
+  display:inline-block;
+  border:solid;
+    margin-top: 30px;
+  margin-left: 0%;/* whatever */
+}
+/*Be A  Writer section END*/
+
+
+/*Subscribe section*/
+
+.sub{
+    color: aliceblue;
+}
+
+.button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: blueviolet;
+}
+
+/*Subscribe section END*/
+/*Footer*/
+.index-info div{
+    margin: 14px 14px 0;
+height: 100px;
+    background-color: lightgray;
+ line-height: 54px; 
+ color: aliceblue;
+     font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 100px;
+}
+.index-info h3{
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+footer{
+width: calc(100% - 80px);
+padding: 40px 40px;
+background-color: black;
+margin-top: 20px;  
+overflow: hidden;
+}
+
+footer ul{
+width: fit-content;
+float: left;
+padding-right: 30px;
+}
+
+footer ul li{
+display: block;
+    list-style: none;
+}
+
+footer ul li a{
+font-family: sans-serif;
+    font-size: 22px;
+    color: wheat;
+line-height: 40px;    
+}
+
+.footer-posts {
+        display: block;
+    }
+
+.footer-posts p{
+        font-family: sans-serif;
+    font-size: 22px;
+    color: white;
+line-height: 40px;   
+     text-transform: uppercase;
+    }
+
+.footer-social{
+    width: 50px;
+    float: right;
+}
+
+.footer-social img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+    
+    /*All subpages*/
+    
+.flex-container {
+ display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+}
+
+/*NBA page*/
+
+.NBA{
+    padding: 30px 30px 20px;
+    text-align: center;
+    color: aliceblue;
+}
+    
+.NBA h2{
+    font-size: 35px;
+    padding: 30px 30px 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.NBA-harden{
+    color: aliceblue;
+    position: relative;
+      border: 3px solid #73AD21;
+background-image:url(/img/harden.jpg);
+background-position: center;
+background-size: cover; 
+    width: 300px;
+    height: 250px;
+}
+.NBA-harden h2{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.NBA-harden p{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.NBA-giannis{
+    color: aliceblue;
+    position: relative;
+      border: 3px solid #73AD21;
+    background-image: url(/img/giannis%20.jpg);
+background-position: center;
+background-size: cover;
+      width: 300px;
+    height: 250px;
+}
+.NBA-giannis h2{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.NBA-giannis p{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.NBA-lakers{
+      color: aliceblue;
+    position: relative;
+      border: 3px solid #73AD21;
+    background-image: url(/img/lakers.jpg);
+background-position: center;
+background-size: cover;
+width: 300px;
+height: 250px;
+}
+
+.NBA-lakers h2{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.NBA-lakers p{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.NBA-butler{
+        color: aliceblue;
+    position: relative;
+      border: 3px solid #73AD21;
+    background-image: url(/img/butler.jpg);
+background-position: center;
+background-size: cover;
+      width: 300px;
+    height: 250px;
+}
+.NBA-butler h2{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.NBA-butler p{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+/*NBA page END*/
+
+/*NFL page*/
+
+.NFL{
+ font-size: 25px;
+    padding: 30px 30px 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.NFL-foles{
+        color: aliceblue;
+    position: relative;
+      border: 3px solid #73AD21;
+    background-image: url(/img/wentzfoles.jpg);
+background-position: center;
+background-size: cover; 
+    width: 300px;
+    height: 250px;
+}
+
+.NFL-foles h2{
+      font-size: 15px;
+    font-weight: 900;
+}
+
+.NFL-foles p{
+   width: fit-content;
+    font-family: sans-serif;
+    padding: 10px 10px 20px;
+    text-align: center;
+    text-indent: 30px;
+    line-height: 24px;
+      font-size: 15px;
+    font-weight: 900;
+}
+
+.NFL-playoff{
+         color: aliceblue;
+    position: relative;
+      border: 3px solid #73AD21;
+    background-image: url(/img/playoff.jpg);
+background-position: center;
+background-size: cover;
+     width: 300px;
+    height: 250px;
+}
+    
+.NFL-playoff h2{
+      font-size: 15px;
+    font-weight: 900;
+}
+
+.NFL-playoff p{
+   width: fit-content;
+    font-family: sans-serif;
+    padding: 10px 10px 20px;
+    text-align: center;
+    text-indent: 30px;
+    line-height: 24px;
+      font-size: 15px;
+    font-weight: 900;
+}
+
+.NFL-mayfield{
+         color: aliceblue;
+    position: relative;
+      border: 3px solid #73AD21;
+    background-image: url(/img/mayfield.jpg);
+background-position: center;
+background-size: cover;
+   width: 300px;
+    height: 250px;
+}
+
+.NFL-mayfield h2{
+      font-size: 15px;
+    font-weight: 900;
+    
+}
+
+.NFL-mayfield p{
+   width: fit-content;
+    font-family: sans-serif;
+    padding: 10px 10px 20px;
+    text-align: center;
+    text-indent: 30px;
+    line-height: 24px;
+      font-size: 15px;
+    font-weight: 900;
+}
+
+.NFL-antonio{
+         color: aliceblue;
+    position: relative;
+      border: 3px solid #73AD21;
+    background-image: url(/img/antonio.jpg);
+background-position: center;
+background-size: cover;
+     width: 300px;
+    height: 250px;
+}
+
+.NFL-antonio h2{
+      font-size: 25px;
+    text-decoration-color: black;
+    font-weight: 1000;
+    }
+
+.NFL-antonio p{
+   width: fit-content;
+    font-family: sans-serif;
+    padding: 10px 10px 20px;
+    text-align: center;
+    text-indent: 30px;
+    line-height: 24px;
+      font-size: 15px;
+    font-weight: 1000;
+}
+
+/*NFL page END*/
+
+/*Review page*/
+
+/*top left*/
+.rev {
+     position: relative;
+  border: 3px solid #73AD21;
+background-image:url(/img/room.jpg);
+background-position: center;
+background-size: cover;
+      width: 300px;
+    height: 200px;
+}
+
+.rev p{
+    color: aliceblue;
+}
+
+
+/*top right*/
+.rev1 {
+     position: relative;
+  border: 3px solid #73AD21;
+background-image: url(/img/bb.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+  background-position: center;
+      width: 300px;
+    height: 200px;
+}
+
+.rev1 p{
+    color: aliceblue;
+}
+
+/*bottom left*/
+.rev2 {
+     position: relative;
+  border: 3px solid #73AD21;
+background-image: url(/img/spider.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+      width: 300px;
+    height: 200px;
+}
+
+.rev2 p{
+    color: darkblue;
+}
+
+/*bottom right*/
+.rev3 {
+     position: relative;
+  width: fit-content;
+  border: 3px solid #73AD21;
+background-image: url(/img/aqua.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+    width: 300px;
+    height: 200px;
+}
+
+.rev3 p{
+    color: aliceblue;
+}
+
+.quick-fire{
+     margin-top: 60px;
+    padding: 30px 30px 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.top5{
+    position: relative;
+    background-color: transparent;
+  width:fit-content;
+  display:block;
+  border:solid;
+    margin-left: 1000px
+}
+
+.top5 h2{
+    color: aliceblue;
+    text-align: center;
+}
+
+.top5 p{
+    color: aliceblue;
+    text-align: center;
+}
+
+.upcom{
+     position: relative;
+    right: -200px;
+  bottom: 100px;
+  width: fit-content;
+    border: 3px solid #73AD21;
+    overflow: scroll;
+}   
+
+.upcom h3{ 
+    color: aliceblue;
+}
+
+.upcom p {
+    color: aliceblue;
+}
+/*Review page END*/
+
+/*Articles*/
+    .article h2{
+        font-size: 45px;
+        color: wheat;
+    }
+    .article p{
+         color: aliceblue;
+        line-height: 30px;
+    }
+
+    
+/*Articles end*/
+}
