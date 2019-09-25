@@ -1,0 +1,338 @@
+    /*All subpages*/
+    
+.flex-container {
+ display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+}
+
+/*NBA page*/
+
+.NBA{
+    padding: 30px 30px 20px;
+    text-align: center;
+    color: aliceblue;
+}
+    
+.NBA h2{
+    font-size: 35px;
+    padding: 30px 30px 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.NBA-harden{
+    color: aliceblue;
+    position: relative;
+      border: 3px solid #73AD21;
+background-image:url(/img/harden.jpg);
+background-position: center;
+background-size: cover; 
+    width: 300px;
+    height: 250px;
+}
+.NBA-harden h2{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.NBA-harden p{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.NBA-giannis{
+    color: aliceblue;
+    position: relative;
+      border: 3px solid #73AD21;
+    background-image: url(/img/giannis%20.jpg);
+background-position: center;
+background-size: cover;
+      width: 300px;
+    height: 250px;
+}
+.NBA-giannis h2{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.NBA-giannis p{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.NBA-lakers{
+      color: aliceblue;
+    position: relative;
+      border: 3px solid #73AD21;
+    background-image: url(/img/lakers.jpg);
+background-position: center;
+background-size: cover;
+width: 300px;
+height: 250px;
+}
+
+.NBA-lakers h2{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.NBA-lakers p{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.NBA-butler{
+        color: aliceblue;
+    position: relative;
+      border: 3px solid #73AD21;
+    background-image: url(/img/butler.jpg);
+background-position: center;
+background-size: cover;
+      width: 300px;
+    height: 250px;
+}
+.NBA-butler h2{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.NBA-butler p{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+/*NBA page END*/
+
+/*NFL page*/
+
+.NFL{
+ font-size: 25px;
+    padding: 30px 30px 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.NFL-foles{
+        color: aliceblue;
+    position: relative;
+      border: 3px solid #73AD21;
+    background-image: url(/img/wentzfoles.jpg);
+background-position: center;
+background-size: cover; 
+    width: 300px;
+    height: 250px;
+}
+
+.NFL-foles h2{
+      font-size: 15px;
+    font-weight: 900;
+}
+
+.NFL-foles p{
+   width: fit-content;
+    font-family: sans-serif;
+    padding: 10px 10px 20px;
+    text-align: center;
+    text-indent: 30px;
+    line-height: 24px;
+      font-size: 15px;
+    font-weight: 900;
+}
+
+.NFL-playoff{
+         color: aliceblue;
+    position: relative;
+      border: 3px solid #73AD21;
+    background-image: url(/img/playoff.jpg);
+background-position: center;
+background-size: cover;
+     width: 300px;
+    height: 250px;
+}
+    
+.NFL-playoff h2{
+      font-size: 15px;
+    font-weight: 900;
+}
+
+.NFL-playoff p{
+   width: fit-content;
+    font-family: sans-serif;
+    padding: 10px 10px 20px;
+    text-align: center;
+    text-indent: 30px;
+    line-height: 24px;
+      font-size: 15px;
+    font-weight: 900;
+}
+
+.NFL-mayfield{
+         color: aliceblue;
+    position: relative;
+      border: 3px solid #73AD21;
+    background-image: url(/img/mayfield.jpg);
+background-position: center;
+background-size: cover;
+   width: 300px;
+    height: 250px;
+}
+
+.NFL-mayfield h2{
+      font-size: 15px;
+    font-weight: 900;
+    
+}
+
+.NFL-mayfield p{
+   width: fit-content;
+    font-family: sans-serif;
+    padding: 10px 10px 20px;
+    text-align: center;
+    text-indent: 30px;
+    line-height: 24px;
+      font-size: 15px;
+    font-weight: 900;
+}
+
+.NFL-antonio{
+         color: aliceblue;
+    position: relative;
+      border: 3px solid #73AD21;
+    background-image: url(/img/antonio.jpg);
+background-position: center;
+background-size: cover;
+     width: 300px;
+    height: 250px;
+}
+
+.NFL-antonio h2{
+      font-size: 25px;
+    text-decoration-color: black;
+    font-weight: 1000;
+    }
+
+.NFL-antonio p{
+   width: fit-content;
+    font-family: sans-serif;
+    padding: 10px 10px 20px;
+    text-align: center;
+    text-indent: 30px;
+    line-height: 24px;
+      font-size: 15px;
+    font-weight: 1000;
+}
+
+/*NFL page END*/
+
+/*Review page*/
+
+/*top left*/
+.rev {
+     position: relative;
+  border: 3px solid #73AD21;
+background-image:url(/img/room.jpg);
+background-position: center;
+background-size: cover;
+      width: 300px;
+    height: 200px;
+}
+
+.rev p{
+    color: aliceblue;
+}
+
+
+/*top right*/
+.rev1 {
+     position: relative;
+  border: 3px solid #73AD21;
+background-image: url(/img/bb.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+  background-position: center;
+      width: 300px;
+    height: 200px;
+}
+
+.rev1 p{
+    color: aliceblue;
+}
+
+/*bottom left*/
+.rev2 {
+     position: relative;
+  border: 3px solid #73AD21;
+background-image: url(/img/spider.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+      width: 300px;
+    height: 200px;
+}
+
+.rev2 p{
+    color: darkblue;
+}
+
+/*bottom right*/
+.rev3 {
+     position: relative;
+  width: fit-content;
+  border: 3px solid #73AD21;
+background-image: url(/img/aqua.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+    width: 300px;
+    height: 200px;
+}
+
+.rev3 p{
+    color: aliceblue;
+}
+
+.quick-fire{
+     margin-top: 60px;
+    padding: 30px 30px 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.top5{
+    position: relative;
+    background-color: transparent;
+  width:fit-content;
+  display:block;
+  border:solid;
+    margin-left: 1000px
+}
+
+.top5 h2{
+    color: aliceblue;
+    text-align: center;
+}
+
+.top5 p{
+    color: aliceblue;
+    text-align: center;
+}
+
+.upcom{
+     position: relative;
+    right: -200px;
+  bottom: 100px;
+  width: fit-content;
+    border: 3px solid #73AD21;
+    overflow: scroll;
+}   
+
+.upcom h3{ 
+    color: aliceblue;
+}
+
+.upcom p {
+    color: aliceblue;
+}
+/*Review page END*/
